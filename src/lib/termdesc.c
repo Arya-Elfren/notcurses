@@ -1052,7 +1052,7 @@ build_supported_styles(tinfo* ti){
 #ifdef __APPLE__
 // Terminal.App is a wretched piece of shit that can't handle even the most
 // basic of queries, instead bleeding them through to stdout like a great
-// wounded hippopotamus. it does export "TERM_PROGRAM=Apple_Terminal", becuase
+// wounded hippopotamus. it does export "TERM_PROGRAM=Apple_Terminal", because
 // it is a committee on sewage and drainage where all the members have
 // tourette's. on mac os, if TERM_PROGRAM=Apple_Terminal, accept this hideous
 // existence, circumvent all queries, and may god have mercy on our souls.
